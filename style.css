@@ -17,11 +17,16 @@ h2, h3
     color: #000000;
 }
 
+html {
+  scroll-padding-top: 100px;
+  scroll-behavior: smooth;
+}
+
 section 
 {
     padding-top: 2rem;
     padding-bottom: 2rem;
-    scroll-margin-top: 300px;
+    scroll-margin-top: 100px;
 }
 
 .btn-primary 
@@ -72,4 +77,27 @@ footer
 {
   font-weight: bold;
   color: #555;
+}
+
+.card-hover 
+{
+  transition: box-shadow 0.3s ease;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.card-hover:hover 
+{
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+nav.navbar {
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: background-color 0.3s ease;
+}
+
+nav.navbar.scrolled {
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
