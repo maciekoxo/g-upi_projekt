@@ -73,27 +73,26 @@
   </div>
 </section>
 
-
 <section id="dlaczego" class="bg-light py-5">
   <div class="container text-center">
     <h2>Dlaczego warto nas wybrać?</h2>
     <div class="row">
-    <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-      <i class="bi bi-check-circle fs-1 text-primary mb-3"></i>
-      <h5>Nowoczesna flota</h5>
-      <p>Zawsze nowe i sprawdzone modele.</p>
+      <div class="col-md-4 card-hover" data-aos="fade-up" data-aos-delay="100">
+        <i class="bi bi-check-circle fs-1 text-primary mb-3"></i>
+        <h5>Nowoczesna flota</h5>
+        <p>Zawsze nowe i sprawdzone modele.</p>
+      </div>
+      <div class="col-md-4 card-hover" data-aos="fade-up" data-aos-delay="200">
+        <i class="bi bi-shield-lock fs-1 text-primary mb-3"></i>
+        <h5>Bezpieczeństwo</h5>
+        <p>Ubezpieczenie i serwis w cenie.</p>
+      </div>
+      <div class="col-md-4 card-hover" data-aos="fade-up" data-aos-delay="300">
+        <i class="bi bi-clock-history fs-1 text-primary mb-3"></i>
+        <h5>Dostępność 24/7</h5>
+        <p>Rezerwacje o każdej porze dnia i nocy.</p>
+      </div>
     </div>
-    <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-      <i class="bi bi-shield-lock fs-1 text-primary mb-3"></i>
-      <h5>Bezpieczeństwo</h5>
-      <p>Ubezpieczenie i serwis w cenie.</p>
-  </div>
-  <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-      <i class="bi bi-clock-history fs-1 text-primary mb-3"></i>
-      <h5>Dostępność 24/7</h5>
-      <p>Rezerwacje o każdej porze dnia i nocy.</p>
-  </div>
-  </div>
   </div>
 </section>
 
@@ -110,33 +109,47 @@
   <div class="container">
     <h2 class="text-center mb-4">Opinie klientów</h2>
     <div id="opinieCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000" data-bs-pause="false">
-    <div class="carousel-inner text-center">
-      <div class="carousel-item active">
-        <blockquote>Profesjonalna obsługa.</blockquote>
-        <footer>Kinga</footer>
-      </div>
-      <div class="carousel-item">
-        <blockquote>Auto czyste i gotowe.</blockquote>
-        <footer>Paweł</footer>
-      </div>
-      <div class="carousel-item">
-        <blockquote>Świetna obsługa!</blockquote>
-        <footer>Anna</footer>
-      </div>
-      <div class="carousel-item">
-        <blockquote>Profesjonalnie i punktualnie.</blockquote>
-        <footer>Krzysztof</footer>
-      </div>  
-    </div>
+      <div class="carousel-inner text-center">
 
-    <button class="carousel-control-prev" type="button" data-bs-target="#opinieCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-      <span class="visually-hidden">Poprzedni</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#opinieCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-      <span class="visually-hidden">Następny</span>
-    </button>
+        <div class="carousel-item active">
+          <figure>
+            <blockquote class="blockquote">Profesjonalna obsługa.</blockquote>
+            <figcaption class="blockquote-footer">Kinga</figcaption>
+          </figure>
+        </div>
+
+        <div class="carousel-item">
+          <figure>
+            <blockquote class="blockquote">Auto czyste i gotowe.</blockquote>
+            <figcaption class="blockquote-footer">Paweł</figcaption>
+          </figure>
+        </div>
+
+        <div class="carousel-item">
+          <figure>
+            <blockquote class="blockquote">Świetna obsługa!</blockquote>
+            <figcaption class="blockquote-footer">Anna</figcaption>
+          </figure>
+        </div>
+
+        <div class="carousel-item">
+          <figure>
+            <blockquote class="blockquote">Profesjonalnie i punktualnie.</blockquote>
+            <figcaption class="blockquote-footer">Krzysztof</figcaption>
+          </figure>
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#opinieCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Poprzedni</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#opinieCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Następny</span>
+      </button>
+    </div>
   </div>
 </section>
 
@@ -194,18 +207,26 @@
 <footer class="bg-dark text-white text-center p-4">
   <p>&copy; 2025 AutoRent</p>
     <div>
-      <a href="#" class="text-white me-3">Facebook</a>
-      <a href="#" class="text-white">Instagram</a>
+      <a href="#" class="text-white me-3">
+        <i class="bi bi-facebook me-1"></i> Facebook
+      </a>
+      <a href="#" class="text-white">
+        <i class="bi bi-instagram me-1"></i> Instagram
+      </a>
     </div>
 </footer>
 
 <button id="scrollTopBtn" class="btn btn-primary position-fixed bottom-0 end-0 m-4 shadow">↑</button>
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 <script>AOS.init();</script>
 
+
+
 </body>
 </html>
+
